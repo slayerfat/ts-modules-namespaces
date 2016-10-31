@@ -2,19 +2,11 @@ Typescript modules & namespaces
 =========
 [![Build Status](https://travis-ci.org/slayerfat/ts-modules-namespaces.svg?branch=master)](https://travis-ci.org/slayerfat/ts-modules-namespaces)
 
-just a random test library.
-## Installation
-
-  `npm install @jdaudier/number-formatter`
+just a random test library, inspired from [this article](https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738#.xk440hfam).
 
 ## Usage
 
-    var numFormatter = require('@jdaudier/number-formatter');
-
-    var formattedNum = numFormatter(35666);
-  
-  
-  Output should be `35,666`
+Run `npm run build`
 
 
 ## Tests
