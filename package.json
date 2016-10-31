@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "build": "npm run build:module & npm run build:namespace",
+    "build:module": "(cd module && npm install && npm run build)",
+    "build:namespace": "(cd namespace && npm install && npm run build)"
   },
   "author": "Alejandro Granadillo <slayerfat@gmail.com>",
   "private": true,
