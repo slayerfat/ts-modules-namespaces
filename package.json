@@ -13,8 +13,9 @@
   "private": true,
   "license": "ISC",
   "dependencies": {
+    "ts-modules": "file:./module",
     "ts-namespaces": "file:./namespace",
-    "ts-modules": "file:./module"
+    "typescript": "^2.0.6"
   },
   "devDependencies": {
     "chai": "^3.5.0",
