@@ -1,0 +1,17 @@
+{
+  "name": "ts-namespaces",
+  "version": "1.0.0",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "typings": "lib/main",
+  "author": "Alejandro Granadillo <slayerfat@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}

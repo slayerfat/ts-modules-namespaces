@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - stable
+
+install:
+  - npm install
+
+before_install:
+    - (cd module && npm run build)
+    - (cd namespace && npm run build)
+
+script:
+  - npm test
+

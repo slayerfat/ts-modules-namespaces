@@ -1,0 +1,20 @@
+{
+  "name": "ts-namespaces-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Alejandro Granadillo <slayerfat@gmail.com>",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "ts-namespaces": "file:./namespace",
+    "ts-modules": "file:./module"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
