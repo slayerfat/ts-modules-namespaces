@@ -7,8 +7,8 @@ install:
   - npm install
 
 before_install:
-    - (cd module && npm run build)
-    - (cd namespace && npm run build)
+    - (cd module && npm install && npm run build)
+    - (cd namespace && npm install && npm run build)
 
 script:
   - npm test
